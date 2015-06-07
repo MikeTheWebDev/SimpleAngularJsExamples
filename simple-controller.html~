@@ -1,0 +1,41 @@
+<div ng-app>
+<h2>ng-repeat</h2>
+		<div ng-controller="myController">
+			<div ng-repeat="user in users">
+				<h2>{{user.name}}</h2>
+				<div>{{user.description}}</div>
+			</div>
+		</div>
+</div>
+<script src="angular-1.3.0.min.js"></script>
+<script type="text/javascript">
+function myController($scope) {
+    $scope.users = [
+			              {
+			            	  name:"Mahesh",
+							  description:"A geek",
+							  age:"22"
+			              },
+			              {
+			            	  name:"Ganesh",
+							  description:"A nerd",
+							  age:"25"
+			              },
+			              {
+			            	  name:"Ramesh",
+							  description:"A noob",
+							  age:"27"
+			              },
+			              {
+			            	  name:"Ketan",
+							  description:"A psychopath",
+							  age:"26"
+			              },
+			              {
+			            	  name:"Niraj",
+							  description:"Intellectual badass",
+							  age:"29"
+			              }
+			            ];
+}
+</script>

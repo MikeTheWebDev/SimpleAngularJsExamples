@@ -6,9 +6,9 @@ I recommend starting off with "AngularJS Fundamentals in 60-ish Minutes" by Dan 
 Ater messing around for an hour or two you can go here to setup your environment with yeoman scaffolding which will give you a working environment to dive deeper! http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/
 
 
+<br>
 
-
-Resources:
+<b>Resources:</b>
 
 AngularJS Fundamentals in 60-ish Minutes By Dan Wahlin
 https://www.youtube.com/watch?v=i9MHigUZKEM&feature=youtu.be

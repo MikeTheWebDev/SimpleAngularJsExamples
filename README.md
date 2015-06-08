@@ -1,4 +1,5 @@
 # SimpleAngularJsExamples
+<b>Getting Started</b><br>
 This repository shows simple AngularJS examples. These are intended to be quick-start pieces to set you on the right path. 
 
 I recommend starting off with "AngularJS Fundamentals in 60-ish Minutes" by Dan Wahlin linked down below in the resources section.

@@ -1,0 +1,20 @@
+angular.module('todomvc', [])
+    .controller('TodoCtrl', function TodoCtrl($scope, $filter) {
+      'use strict';
+       
+      $scope.newTodo = '';
+      $scope.editedTodo = null;
+
+      $scope.addTodo = function() {
+          var newTodo = {
+                  title: $scope.newTodo.trim(),
+                  completed: false;
+          };
+      
+      $scope.saving = true;
+      
+      // TODO store this somewhere
+
+      };
+
+     });

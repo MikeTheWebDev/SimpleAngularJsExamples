@@ -1,0 +1,17 @@
+[
+ {
+  "id": 1,
+  "name": "Profile Badge Link",
+  "link": "/profile"
+ },
+ {
+  "id": 2,
+  "name": "Graphs",
+  "link": "/graphs"
+ },
+ {
+  "id": 3,
+  "name": "Schemas",
+  "link": "/schemas"
+ }
+]

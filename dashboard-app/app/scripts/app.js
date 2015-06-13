@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc overview
- * @name yeomanAppSkeletonApp
+ * @name dashboardApp
  * @description
- * # yeomanAppSkeletonApp
+ * # dashboardApp
  *
  * Main module of the application.
  */

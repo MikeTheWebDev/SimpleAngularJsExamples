@@ -1,16 +1,13 @@
 'use strict';
 
-angular.module('manageProperties', ["firebase"])
+angular.module('manageProperties', [])
     .controller('propertyCtrl', function($scope) {
         $scope.propertyName = "";
         $scope.propertyLocation = "";
         // connect to firebase
         $scope.myData = new Firebase("https://crackling-inferno-8136.firebaseio.com/Properties");
-        // what does this line even do?
-        $scope.fb = $firebase(myData);
-        // sync as object
-        $scope.syncObject = fb.$asObject();
-        $scope.properties = {};
+       
+        
 
         $scope.saveProperty = function() {
             $scope.myData.push({propertyName:$scope.propertyName,propertyLocation:$scope.propertyLocation});
@@ -19,12 +16,16 @@ angular.module('manageProperties', ["firebase"])
             $scope.propertyLocation = "";
         };
 
+        $scope.deleteProperty = function() {
+            alert('Property Deleted!');
+        };
+
         $scope.myData.on('value', function(snapshot) {
             $scope.properties = snapshot.val();
             $scope.$apply();
         });   
         
-                 
+                
 	
     })
    

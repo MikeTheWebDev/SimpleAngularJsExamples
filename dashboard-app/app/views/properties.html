@@ -13,7 +13,13 @@
     <script src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>
 </head>
 <body style="margin:20px;" ng-controller="propertyCtrl">
+    
+    <a href="#">Inbox <span class="badge">42</span></a>
 
+    <button class="btn btn-primary" type="button">
+        Messages <span class="badge">4</span>
+    </button>
+    
     <div>
         <label>Property Name</label>
         <input type="text" id="propertyName" ng-model="propertyName"><br/>
@@ -26,12 +32,18 @@
             <thead>
                 <th>Property Name</th>
                 <th>Property Location</th>
+                <th>Manage</th>
             </thead>
             <tbody ng-repeat="property in properties">
                 <tr>
                     <td>{{property.propertyName}}</td>
                     <td>{{property.propertyLocation}}</td>
+                    <td>
+                    <button class="btn btn-default" ng-click="deleteProperty()">Delete <span class="glyphicon glyphicon-ok"></button>
+                    <button class="btn btn-default">Edit <span class="glyphicon glyphicon-pencil"></button>
+                    </td>
                 </tr>
+
             </tbody>
         </table>
     </div>
@@ -39,8 +51,9 @@
     <div>
         <button class="btn btn-default" ng-click="saveProperty()">
             Save <span class="glyphicon glyphicon-ok">
-        </button>    
+        </button>     
     </div>
+
     <div>
         Property Name: {{propertyName}} <br />
         Property Age: {{propertyLocation}}

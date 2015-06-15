@@ -20,4 +20,9 @@ http://www.hongkiat.com/blog/angularjs-tutorials-screencast/
 AngularJS Official Tutorial - PhonecatApp  
 https://docs.angularjs.org/tutorial
 
+AngularJS and Firebase quickstart (~30 minutes)
+description: build a real-time app in angularjs and firebase (one of my personal favorites)
+https://www.youtube.com/watch?v=8qdoaX-iWC4
+
+<b>Contact Me:</b>
 If you have any questions, please contact me and I will do my best to answer your question(s) or point you in the right direction MikeTheWebDev@gmail.com

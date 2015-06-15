@@ -1,0 +1,19 @@
+<html ng-app>
+<head></head>
+<!--
+ Demonstrate initializing array of "names" and display
+ @author MikeTheWebDev
+ MikeTheWebDev@gmail.com
+-->
+
+<!-- initialize array, in this case I called it "names" -->
+<body ng-init="names=['Mike', 'Ellie', 'Gabrielle']">
+
+<!-- use ng-repeat="[thing] in [someList]> {{ [thing] }} -->
+<ul>
+    <li ng-repeat="personName in names"> {{ personName }} </li>
+</ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</body>
+</html>

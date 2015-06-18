@@ -1,0 +1,13 @@
+
+<form ng-submit="submitPost()">
+  <input type="text" ng-model="post.title" />
+  <input type="text" ng-model="post.url" />
+  <input type="submit" value="Add Post" />
+</form>
+
+Posts: {{ posts }} <br />
+Post: {{ post }}
+
+<div ng-repeat="post in posts">
+  <a href="{{ post.url }}">{{ post.title }}</a>
+</div>

@@ -1,0 +1,41 @@
+<div ng-controller="propertyCtrl">   
+
+    <div>
+        <label>Property Name</label>
+        <input type="text" id="propertyName" ng-model="propertyName"><br/>
+        <label>Property Location</label>
+        <input type="text" id="propertyLocation" ng-model="propertyLocation"><br />
+    </div>
+
+    <div>
+        <table class="table table-bordered">
+            <thead>
+                <th>Property Name</th>
+                <th>Property Location</th>
+                <th>Manage</th>
+            </thead>
+            <tbody ng-repeat="property in properties">
+                <tr>
+                    <td>{{property.propertyName}}</td>
+                    <td>{{property.propertyLocation}}</td>
+                    <td>
+                    <button class="btn btn-default" ng-click="deleteProperty()">Delete <span class="glyphicon glyphicon-ok"></button>
+                    <button class="btn btn-default" ng-click="editProperty()">Edit <span class="glyphicon glyphicon-pencil"></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div>
+        <button class="btn btn-default" ng-click="saveProperty()">
+            Save <span class="glyphicon glyphicon-ok">
+        </button>     
+    </div>
+
+    <div>
+        Property Name: {{propertyName}} <br />
+        Property Age: {{propertyLocation}}
+    </div>
+</div>
+

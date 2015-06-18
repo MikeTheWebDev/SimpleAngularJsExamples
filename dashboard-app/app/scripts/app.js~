@@ -11,7 +11,6 @@
 angular
   .module('dashboardApp', [
     'ngAnimate',
-    'PostApp',
     'ngCookies',
     'ngResource',
     'ngRoute',
@@ -23,8 +22,8 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/posts.html',
-        controller: 'PostsCtrl'
+        templateUrl: 'views/main.html',
+        controller: 'MainCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',

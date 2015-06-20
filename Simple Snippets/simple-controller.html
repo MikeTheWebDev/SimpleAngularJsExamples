@@ -1,4 +1,4 @@
-<div ng-app>
+<div ng-app="SimpleRepeater">
 <h2>ng-repeat</h2>
     <div ng-controller="myController">
         <div ng-repeat="user in users">
@@ -9,19 +9,22 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 <script>
-function myController($scope) {
-    $scope.users = [
-        {
+    // Edited to reflect best practice declaring module and adding controller
+    angular.module('SimpleRepeater', [])
+    .controller('myController', function($scope)
+    {
+        $scope.users = [
+          {
             name: "Mike",
             description: "Eccentric Web Developer and total AngularJS nerd!",
             age: "24"
-        },
-        {
+          },
+          {
             name: "Cap",
             description: "Captain America wears a costume that bears an American flag motif, and is armed with a nearly indestructible shield that he throws at foes. ",
             age: "unknown"
-        }
-    ];
-}
+          }
+        ];
+    });
 			             
 </script>

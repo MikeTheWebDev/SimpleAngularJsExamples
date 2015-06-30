@@ -11,6 +11,8 @@ Ater messing around for an hour or two you can go here to setup your environment
 
 <b>Resources:</b>
 
+#1 This spot goes to https://github.com/jmcunningham/AngularJS-Learning.. This resource list simply cannot compete with all the great work that has gone into jmcunningham's AngularJS-Learning repository. 
+
 AngularJS Fundamentals in 60-ish Minutes By Dan Wahlin
 https://www.youtube.com/watch?v=i9MHigUZKEM&feature=youtu.be
 

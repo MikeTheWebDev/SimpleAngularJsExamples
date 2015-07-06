@@ -1,3 +1,4 @@
+// use angular.module('appName') if you just are getting the module, if you are creating new one use the following shown below
 angular.module('directiveApp', [])
 
 .directive("superman", function() {

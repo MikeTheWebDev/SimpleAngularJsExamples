@@ -1,6 +1,6 @@
 # SimpleAngularJsExamples
 <b>Getting Started</b><br>
-This repository shows simple AngularJS examples. These are intended to be quick-start pieces to set you on the right path. 
+This repository shows simple AngularJS examples. These are intended to be quick-start pieces to set you on the right path. Please look at the Simple Snippets folder. This is the most useful part of this repository. 
 
 I recommend starting off with "AngularJS Fundamentals in 60-ish Minutes" by Dan Wahlin linked down below in the resources section.
 
